@@ -1,0 +1,175 @@
+body {
+  font-family: "Lato", sans-serif;
+}
+
+h1 {
+  font-weight: bolder;
+  color: dark-grey;
+}
+
+h2 {
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+}
+
+.topContainer {
+  background-image: linear-gradient(to bottom,  #fff, #fff, #fff,  #662729, #90382c, #b74f27, #d86c14);
+}
+
+.middleContainer {
+  background-image: linear-gradient(to top,  #fff, #fff, #fff, #d86c14);
+  padding: 5%;
+  height: 500px;
+}
+
+.specialContainer {
+  background-color: #d86c14;
+}
+
+.seasonalView {
+  margin: 20px 0;
+}
+
+#main {
+  padding: 20px 20px 0 0;
+}
+
+
+
+i {
+  margin-left: 5px;
+}
+
+.firstBlock {
+  width: 100%;
+  height: 200px;
+  background-color: black;
+}
+.secondBlock {
+  width: 100%;
+  height: 200px;
+  background-color: blue;
+}
+.thirdBlock {
+  width: 100%;
+  height: 200px;
+  background-color: white;
+}
+
+
+#main .fas {
+  color: black;
+}
+
+.topContainer h2 {
+  font-family: "Anton";
+  margin-right: 20px;
+}
+
+
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: #d86c14;
+  overflow-x: hidden;
+  transition: 0.1s;
+  padding-top: 60px;
+  text-align:right                 ;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+  display: block;
+  transition: 0.1s;
+
+}
+
+.sidenav a:hover{
+  color: black;
+}
+
+h3 {
+  padding-top: 20px;
+  font-family: "Balsamiq Sans";
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+.dailySpecialImage {
+  width: 100%;
+}
+
+.seasonalView {
+  padding: 0;
+}
+
+
+
+
+/* MOBILE FIRST SECTION */
+@media (max-width: 745px) {
+  .mobileOnly {
+    display: block;
+  }
+
+  .logo {
+    width: 70%;
+  }
+
+  p {
+    font-family: "Nunito";
+    color: white;
+    padding: 5% 5% 0;
+    font-size: 0.8rem;
+    margin: 0;
+  }
+
+  .desktopOnly {
+    display: none;
+  }
+
+}
+
+@media (min-width: 745px) {
+  .mobileOnly {
+    display: none;
+  }
+
+  .desktopOnly {
+    display: block;
+  }
+}
+
+
+
+
+.textaligncenter {
+  text-align: center;
+}
+
+.textalignright {
+  text-align: right;
+}
+
+.textalignleft {
+  text-align: left;
+}

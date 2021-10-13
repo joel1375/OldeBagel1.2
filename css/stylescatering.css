@@ -1,0 +1,141 @@
+body {
+  font-family: "Open Sans";
+}
+.creditsContainer {
+  background-color: #d86c14;
+  height: 60px;
+}
+
+.cateringItems {
+  margin: 30px 0 0 0;
+}
+
+.card-img-top {
+  width: 60%;
+}
+
+.logo {
+  width: 80%;
+}
+
+
+.sideBar {
+  height: 98vh;
+  background-color: #d86c14;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  padding-right: 0;
+}
+
+.normalPadding {
+  padding: 30px 2%;
+}
+
+.active {
+  background-color: white;
+}
+
+
+.btn {
+  width: 100%;
+  background-color: #d86c14;
+  border: none;
+}
+
+.bagelBack {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+.col-sm-8,.col-md-9 {
+  padding: 0;
+}
+
+.title {
+  background-color: #f8ecb4;
+  /* position: -webkit-sticky;
+  position: sticky; */
+  top: 0;
+  padding: 10px;
+  margin: 0;
+}
+
+.sideBarPadding {
+  padding: 0 0 0 0;
+}
+
+.card-img-top {
+  margin-top: 15px;
+  width: 40%;
+}
+
+#cateringPage hr {
+  margin: 30px 0;
+}
+
+
+.topBottomPadding {
+  padding: 20px 0;
+}
+
+hr {
+  margin: 0 0;
+}
+h3 {
+  font-size: 1.2vw;
+}
+
+.sideBar button:hover {
+  color: black;
+  background-color: white;
+
+}
+.addressInfo h6 {
+  line-height: 0.9;
+  font-size: 0.8vw;
+  color: black;
+  padding: 0 20px 30px 20px;
+}
+.addressInfo h5 {
+  line-height: 0.95;
+  font-size: 1.0vw;
+  color: black;
+  padding: 0 20px;
+
+}
+
+.textCenter {
+  text-align: center;
+  width: 100%;
+}
+
+.textRight {
+  text-align: right;
+}
+
+.textLeft {
+  text-align: left;
+}
+
+@media (max-width: 745px) {
+  .mobileOnly {
+    display: block;
+  }
+
+  .desktopOnly {
+    display: none;
+  }
+
+}
+
+@media (min-width: 745px) {
+  .mobileOnly {
+    display: none;
+  }
+
+  .desktopOnly {
+    display: block;
+  }
+}
